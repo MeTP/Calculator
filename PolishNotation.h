@@ -1,3 +1,5 @@
+#ifndef _POLISHNOTATION_H_
+#define _POLISHNOTATION_H_
 
 #include <string>
 #include <stack>
@@ -17,3 +19,4 @@ public:
 	void CleanStr();
 };
 
+#endif

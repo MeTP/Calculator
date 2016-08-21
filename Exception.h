@@ -1,3 +1,6 @@
+#ifndef _EXCEPTION_H_
+#define _EXCEPTION_H_
+
 #include <exception>
 #include <string>
 
@@ -11,3 +14,4 @@ private:
 	std::string _what;
 };
 
+#endif

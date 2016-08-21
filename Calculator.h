@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _CALCULATOR_H_
+#define _CALCULATOR_H_
+
 #include <string>
 #include <stack>
 #include <vector>
@@ -27,3 +29,4 @@ private:
 	void CheckDots(std::vector<std::string>& vectorStr);
 };
 
+#endif

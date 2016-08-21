@@ -1,3 +1,4 @@
+
 #include "Calculator.h"
 #include "Check.h"
 Calculator::Calculator()
@@ -157,3 +158,4 @@ float Calculator::GetAnswer()
 { 
 	return answer; 
 }
+

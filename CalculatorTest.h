@@ -44,7 +44,7 @@ public:
 		}
 		catch (Exception &e)
 		{
-			TS_ASSERT_EQUALS(e.what(), "too many operators");
+			TS_ASSERT_EQUALS(std::string(e.what()), "too many operators");
 		}
 
 		try
@@ -53,7 +53,7 @@ public:
 		}
 		catch (Exception &e)
 		{
-			TS_ASSERT_EQUALS(e.what(), "incorrect expression");
+			TS_ASSERT_EQUALS(std::string(e.what()), "incorrect expression");
 		}
 
 		try
@@ -62,7 +62,7 @@ public:
 		}
 		catch (Exception &e)
 		{
-			TS_ASSERT_EQUALS(e.what(), "incorrect expression");
+			TS_ASSERT_EQUALS(std::string(e.what()), "incorrect expression");
 		}
 
 		try
@@ -71,7 +71,7 @@ public:
 		}
 		catch (Exception &e)
 		{
-			TS_ASSERT_EQUALS(e.what(), "missing an closing bracket");
+			TS_ASSERT_EQUALS(std::string(e.what()), "missing an closing bracket");
 		}
 
 		try
@@ -80,7 +80,7 @@ public:
 		}
 		catch (Exception &e)
 		{
-			TS_ASSERT_EQUALS(e.what(), "missing an opening bracket");
+			TS_ASSERT_EQUALS(std::string(e.what()), "missing an opening bracket");
 		}
 
 		try
@@ -89,7 +89,7 @@ public:
 		}
 		catch (Exception &e)
 		{
-			TS_ASSERT_EQUALS(e.what(), "asd");
+			TS_ASSERT_EQUALS(std::string(e.what()), "asd");
 		}
 
 		TS_TRACE("Finishing Calculator::SetExpression test");

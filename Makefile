@@ -6,6 +6,8 @@ OBJECTS=$(SOURCES:.cpp=.o)
 
 APPFILE=calculator
 
+TESTRUNNER=runtest.sh
+
 all: $(APPFILE)
 
 $(APPFILE): $(OBJECTS)
@@ -22,3 +24,9 @@ install:
 
 uninstall:
 	rm -f /usr/local/bin/$(APPFILE)
+
+tests:
+	./$(TESTRUNNER)
+
+tests-verbose:
+	./$(TESTRUNNER)	-v
