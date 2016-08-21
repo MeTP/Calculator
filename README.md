@@ -26,7 +26,9 @@ More details about the algorithm https://habrahabr.ru/post/100869/
 
 ## Tests
 
-Unit tests based on CxxTest. https://github.com/CxxTest/cxxtest.git 
+Unit tests based on CxxTest also included. 
+
+CxxTest - https://github.com/CxxTest/cxxtest.git 
 
 To run them you can run these commands:
 
