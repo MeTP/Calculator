@@ -26,7 +26,9 @@ More details about the algorithm https://habrahabr.ru/post/100869/
 
 ## Tests
 
-Unit tests based on CxxTest also included. To run them you can run these commands:
+Unit tests based on CxxTest. https://github.com/CxxTest/cxxtest.git 
+
+To run them you can run these commands:
 
 make tests / ./runtests.sh - just run tests and print out a success rate.
 
