@@ -18,8 +18,11 @@ More details about the algorithm https://habrahabr.ru/post/100869/
 ```
 
 ## Installation
- For install use makefile.
- type make
+ For install use makefile. Type make, then make install
+ 
+ For uninstall type make uninstall
+ 
+ App name = calculator
 
 ## Author
 
