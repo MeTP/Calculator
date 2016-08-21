@@ -24,6 +24,15 @@ More details about the algorithm https://habrahabr.ru/post/100869/
  
  App name = calculator
 
+## Tests
+
+Unit tests based on CxxTest also included. To run them you can run these commands:
+
+make tests / ./runtests.sh - just run tests and print out a success rate.
+
+make tests-verbose / ./runtests.sh -v - run tests and print out a success rate and some tracing information.
+
+
 ## Author
 
 * **Sizih Vladimir**
