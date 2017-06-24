@@ -39,4 +39,4 @@ make tests-verbose / ./runtests.sh -v - run tests and print out a success rate a
 
 ## Author
 
-* **Sizih Vladimir**
+* **Sizykh Vladimir**
